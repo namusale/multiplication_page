@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Schoolbell&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <ul class = "navbar">
+            <li><a  style="text-decoration: none" href = "counting.html#practiceTables" target="_blank">Practice Times Table</a> </li>
+            <li><a style="text-decoration: none" href = "counting.html#checkArea" target="_blank">Timed Questions Go</a></li>
+            <li><a style="text-decoration: none" href = "timesTable.html#countingButtons" target="_blank">Count in 2s and More</a></li>
+            <li><a style="text-decoration: none" href = "timesTable.html#thetables" target="_blank">Times Tables Facts</a></li>
+            <li><a style="text-decoration: none" href = "parents.html" target="_blank">Parents</a></li>
+            
+        </ul>
+    </nav>
+  
+    <div class = "practice">
+        
+
+            <div class = "btnsAndPractice" id = "practiceTables"> 
+                <h4>Practice The Times Table</h4>
+                <div class = "btnsAndPractice2">
+                    <div class= "mbtns" >
+                        <h4>Choose table to Practice</h4>
+                        <button onclick = "mbtnsClick(2)">2X</button>
+                        <button onclick = "mbtnsClick(5)">5X</button>
+                        <button onclick = "mbtnsClick(10)">10X</button>
+                        <button onclick = "mbtnsClick(3)">3X</button>
+                        <button onclick = "mbtnsClick(4)">4X</button>
+                        <button onclick = "mbtnsClick(8)">8X</button>
+                        <button onclick = "mbtnsClick(6)">6X</button>
+                        <button onclick = "mbtnsClick(9)">9X</button>
+                        <button onclick = "mbtnsClick(7)">7X</button>
+                        <button onclick = "mbtnsClick(11)">11X</button>
+                        <button onclick = "mbtnsClick(12)">12X</button>
+                        <button onclick = "mbtnsClick(1)">1X</button>
+                        
+                    
+                    </div>
+    
+                    <div id = "pArea">
+                        <div id = "pZone">
+                            1 X 10 = 10 <br>
+                            2 X 10 = 20<br>
+                             3 X 10 = 30<br>
+                             4 X 10 = 40<br>
+                             5 X 10 = 50<br>
+                             6 X 10 = 60<br>
+                             7 X 10 = 70<br>
+                             8 X 10 = 80<br>
+                             9 X 10 = 90<br>
+                             10 X 10 = 100<br>
+                             11 X 10 = 110<br>
+                             12 X 10 = 120<br>
+                        
+                        </div>
+                    </div>
+                    
+                </div>
+                <p id = "checking"></p>
+                
+            </div>
+        
+
+        <div class ="checkArea" id = "checkArea">
+            <h4>Check out Timed Questions</h4>
+            <div class ="cbtns">
+                <button class = "c_buttons" onclick = "checkTable(2)">2X</button>
+                <button class = "c_buttons" onclick = "checkTable(5)">5X</button>
+                <button class = "c_buttons" onclick = "checkTable(10)">10X</button>
+                <button class = "c_buttons" onclick = "checkTable(3)">3X</button>
+                <button class = "c_buttons" onclick = "checkTable(4)">4X</button>
+                <button class = "c_buttons" onclick = "checkTable(8)">8X</button>
+                <button class = "c_buttons" onclick = "checkTable(6)">6X</button>
+                <button class = "c_buttons" onclick = "checkTable(9)">9X</button>
+                <button class = "c_buttons" onclick = "checkTable(7)">7X</button>
+                <button class = "c_buttons" onclick = "checkTable(11)">11X</button>
+                <button class = "c_buttons" onclick = "checkTable(12)">12X</button>
+                <button class = "c_buttons" onclick = "checkTable(All)">All</button>
+            </div>
+            
+            <div class = "timed" id = "timedProduct"> <span id = "minorMultiple">1</span><span id ="X">X</span><span id = "multiple">3</span><span id ="equal">= </span><span id = "c_answer"></span></div>
+            <div class = "timed" id = "timedAnswer"></div>
+        </div>
+        
+    </div>
+
+  
+    <script src="events.js">
+
+    </script>
+
+</body>
+</html>

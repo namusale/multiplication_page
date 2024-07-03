@@ -1,0 +1,175 @@
+*{
+    margin:0;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 10px;
+    /*border-style: dotted;*/
+    font-family: happy monkey;
+    font-size: medium;
+
+}
+
+body{
+    background-color: rgb(246, 245, 193);
+}
+
+.navbar{
+    background-image: linear-gradient(black,rgb(130, 7, 245));
+    color:white;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    padding:1.5%;
+    list-style: none;
+    border-radius: 0;
+}
+
+.text_bar{
+    position:relative;
+    top:30px;
+    background-image:linear-gradient(rgb(130, 7, 245),rgb(177, 104, 244));
+    padding: 12px;
+    border-color: black;
+    border-style: dotted;
+    border-radius: 12px;
+    border-width: 1px;
+    border-style: dotted;
+    border-style: solid;
+    
+    
+    color:white;
+    align-self: center;
+}
+
+.practice{
+    position:relative;
+    top:60px;
+    display:grid;
+    grid-template-columns: 50% 45%;
+    gap:5%;   
+    padding:1%;
+    padding-bottom: 30%;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 10px;
+    height:auto;
+    
+}
+
+.btnsAndPractice2{
+    position: relative;
+    top:0%;
+    left:0;
+    background-color: rgb(198, 145, 236);
+    /*background-image:linear-gradient(rgb(203, 162, 241),rgb(240, 240, 180)); */
+    display:grid;
+    grid-template-columns: 45% 45%;
+    gap:5%;
+    padding-bottom: 4%;
+    border-style: solid;
+}
+
+.mbtns{
+    position: relative;
+    top:00%;
+    display:grid;
+    grid-template-rows: auto;
+    width:50%;
+    
+    
+}
+
+  
+h4{
+    
+    padding:3%;
+    background-image:linear-gradient(blueviolet,white);
+   width:40;
+    height: fit-content;
+    border-color: black;
+    border-style: dotted;
+    text-align: center;
+    margin:0;
+    border-style: solid;
+}
+
+ .pArea{
+    background-color: aliceblue;
+    position: relative;
+    top:auto;border-style: dotted;
+    border-color: black;
+    border-style: solid;
+    
+
+}
+
+#pZone{
+    position: relative;
+    top:auto;
+    background-color: beige;
+    width:120px;
+    padding:10% 0% 10% 10%;
+    padding-right: 2%;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 10px;
+    font-size: large;
+    border-style: solid;
+    line-height: 20px;
+
+}
+
+.cbtns{
+position: relative;
+display:flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+flex-wrap: wrap;
+
+
+}
+
+.checkArea{
+    position: relative;
+    top:0%;
+    background-color: rgb(198, 145, 236);
+    gap:5%;
+    padding-bottom: 4%;
+    border-style: solid;
+
+}
+
+.c_buttons{
+    position:relative;
+    top:20px;
+    width:80px;
+}
+
+.timed{
+    position: relative;
+    top:80px;
+    left:60px;
+    font-size: large;
+    
+   
+    /* border-style: solid; */
+}
+
+button{
+    background-color:aqua;
+    font-weight:bold;
+    font-size: large;
+}
+button:hover{
+    background-color: blueviolet;
+}
+
+.practice_multiples{
+    font-size: large;
+    line-height: 30px;
+    
+}
+
+

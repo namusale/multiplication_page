@@ -1,0 +1,237 @@
+*{
+    border-radius: 12px;
+    border-width: 1px;
+    margin:0;
+    border-radius: 10px;
+    
+    font-family: happy monkey;
+    font-size: medium;
+    
+   
+
+}
+body{
+    background-color: rgb(246, 245, 193);
+}
+
+.navigation{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px ;
+    border-color: black;
+    border-radius: 0px;
+    background-size:auto;
+    border-width: 1px;
+    border-style: dotted;
+    list-style: none;
+    font-family: schoolbell;
+    font-size:20px;
+    background-image:linear-gradient(black,rgb(130, 7, 245)) ;
+    width: 100%;
+    margin:0;
+    text-align: center;
+}
+
+a:link{color: aliceblue;}
+
+a:visited {color: pink;}
+  
+a:hover {color: rgb(229, 255, 0);}
+
+a:active {color: rgb(0, 255, 110);}
+
+
+.p_buttons:hover{
+    background-color: blueviolet;
+    color:white;
+}
+
+h4{
+position:relative;
+top:0%;
+left: 0%;
+padding:3%;
+background-image:linear-gradient(blueviolet,white);
+width:94%;
+height: fit-content;
+border-color: black;
+border-style: solid;
+text-align: center;
+margin:0;}
+
+
+ h6{padding:0;
+margin:0;}
+
+.counting,.practiceCounting{
+    position:relative;
+    top:1%;
+
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    padding:0;
+    margin:0;  
+    gap:5%;
+    height:fit-content;
+    justify-content:space-between;
+    background-color: rgb(198, 145, 236);
+    border-style: solid;
+    
+   
+}
+
+
+
+
+.cBtn{
+    position: relative;
+    top:2%;
+    background-color: aqua;
+    font-family: happy monkey;
+    font-weight: bold;
+    border-radius: 5px;
+    height: fit-content;
+    width: 100%;
+    padding:4%;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    justify-self: center;
+    font-size:small;
+    
+}
+
+.timescheck{
+    background-color: rgb(234, 255, 0);
+    font-family: happy monkey;
+    font-weight: bold;
+    border-radius: 5px;
+    height: 50%;
+    /* width:fit-content; */
+    padding:9px;
+    border-width: 1px;
+    border-color: black;
+    border-style: dotted;
+}
+
+.cBtn:hover{
+    background-color: blueviolet;
+    color:white;
+}
+
+.practiceCounting{
+    display:grid;
+    grid-template-rows: auto auto auto auto;
+    gap: 2%;
+} 
+
+.countingInterative{
+    position: relative;
+    top: 20px;
+    height: fit-content;
+    background-color: rgb(198, 145, 236);
+    
+}
+
+.countingInd{
+    background-color: rgb(234, 255, 0);
+
+    padding-left:3% ;
+    padding-right:3% ;
+    margin:3%;
+    justify-content: space-between;
+    line-height: 1.cm;
+    
+}
+.countingCheck{
+    background-color: rgb(234, 255, 0);
+    padding-left:3% ;
+    padding-right:3% ;
+    margin:1.5%;
+}
+
+h6{
+    font-family: happy monkey;
+    font-size: medium;
+    margin-top:3%;
+    text-align: center;
+    background-image: linear-gradient(blueviolet,white);
+    
+}
+
+
+
+
+.our_grid{
+    position: relative;
+    top:40px;
+    display:grid;
+    grid-template-columns: 45% 45%;
+    gap:5%;
+    border-style: solid;
+}
+
+button{
+    background-color:rgb(142, 246, 246);
+    font-weight:bold;
+    font-size: large;
+}
+button:hover{
+    background-color: blueviolet;
+}
+.grid_sec{
+    background-color:rgb(198, 145, 236);
+}
+
+
+.grid_sec1{
+    position:relative;
+    top:100px;
+}
+
+#interactiveCounting{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.practice_multiples{
+    justify-content: space-around;
+    padding:2%;
+    margin:2%;
+    background-color: rgb(200, 112, 244);
+
+}
+
+.theTables{
+    list-style: none;
+    background-color: rgb(198, 145, 236);
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    border-style: solid;
+}
+
+.tables{
+    position:relative;
+
+    background-color: rgb(224, 227, 184);
+    padding:2%;
+    border-style: solid;
+    margin:2%;
+}
+
+.parent{
+    background-color: rgb(225, 206, 241);
+    margin: 2%;
+    border-style: solid;
+    padding:0 0.5% 0 0.5%;
+}
+
+footer{
+    background-image:linear-gradient(black,rgb(130, 7, 245)) ;
+}
